@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAHAR | Login</title>
+  <link rel="icon" href="../imgaes/rrarrarar-removebg-preview.png">
+  <link rel="stylesheet" href="signin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+
+ 
+        
+</head>
+<body>
+    <div class="account-container">
+        <div class="header">
+            <h2>ACCOUNT</h2>
+            <a href="../Practice/index.html">
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            </a>
+        </div>
+
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="name">Name <span style="color: red;">*</span></label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email <span style="color: red;">*</span></label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password <span style="color: red;">*</span></label>
+                <input type="password" id="password" required>
+                <span class="password-toggle" onclick="togglePasswordVisibility()"><i class="far fa-eye-slash"></i></span>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password <span style="color: red;">*</span></label>
+                <input type="password" id="confirmPassword" required>
+                <span class="password-toggle" onclick="togglePasswordVisibilityConfirm()"><i class="far fa-eye-slash"></i></span>
+            </div>
+
+            <div id="errorMessages" style="color: red; display: none;"></div>
+
+            <button type="submit" class="btn">SIGN UP</button>
+        </form>
+
+        <p class="new-to-sapphire">ALREADY HAVE AN ACCOUNT?</p>
+        <button type="button" class="btn">SIGN IN</button>
+
+        <div class="or-divider">OR SIGN IN WITH</div>
+
+        <div class="social-login">
+            <button class="social-btn">
+                <a href="http://google.com/">
+                <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google">
+                </a>
+            </button>
+            <button class="social-btn">
+                <a href="https://web.facebook.com/">
+                <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook">
+                </a>
+            </button>
+        </div>
+    </div>
+
+    <!-- <script>
+        function togglePasswordVisibility() {
+            const passwordField = document.getElementById('password');
+            const toggleIcon = document.querySelector('.password-toggle i');
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                toggleIcon.classList.remove('fa-eye-slash');
+                toggleIcon.classList.add('fa-eye');
+            } else {
+                passwordField.type = 'password';
+                toggleIcon.classList.remove('fa-eye');
+                toggleIcon.classList.add('fa-eye-slash');
+            }
+        }
+    </script> -->
+</body>
+</html>
