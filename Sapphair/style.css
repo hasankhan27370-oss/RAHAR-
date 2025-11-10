@@ -1,0 +1,449 @@
+  
+        .product-card {
+            border: none; /* Remove default card border */
+            overflow: hidden; /* Hide anything outside the card (important for hover) */
+            transition: transform 0.2s;
+        
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px); /* Optional: slight lift effect on hover */
+        }
+
+        /* --- Image Hover Logic --- 
+        1. Set the main image and the hover image using CSS background.
+        2. Initially show the main image (default state).
+        3. On hover, show the hover image.
+        */
+        .card-img-container {
+            position: relative;
+            padding-top: 100%; /* Creates a square container */
+            background-size: cover;
+            background-position: center;
+            /* Placeholder for the default image (Image 1) - REPLACE THESE URLs */
+            background-image: url('https://via.placeholder.com/300x300/4e443f/FFFFFF?text=Default+Image');
+            transition: background-image 0.3s ease-in-out;
+            height: 450px;
+        }
+
+        .card-img-container.card-1 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/women1.webp');
+        }
+        /* Hover image for Card 1 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-1 {
+            background-image: url('images/women1hover.webp'); 
+        }
+
+        .card-img-container.card-2 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/women2.webp');
+        }
+        /* Hover image for Card 2 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-2 {
+            background-image: url('images/women2hover.webp');
+        }
+        
+        .card-img-container.card-3 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/women3.webp');
+        }
+        /* Hover image for Card 3 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-3 {
+            background-image: url('images/women3hover.webp'); 
+        }
+        
+        .card-img-container.card-4 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/women4.webp');
+        }
+        /* Hover image for Card 4 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-4 {
+            background-image: url('images/women4hover.webp'); 
+        }
+        
+        .card-img-container.card-5 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/women5.webp');
+        }
+        /* Hover image for Card 4 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-5 {
+            background-image: url('images/women5hover.webp'); 
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+        
+        .card-text-price {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #333; /* Darker price color */
+        }
+    
+
+
+
+        /* ... existing CSS code for card-1 through card-4 ... */
+
+/* -------------------------------------- */
+/* 🛑 CARD 5: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-6 {
+    /* 🔴 ORIGINAL IMAGE 5: Replace with your NEW default image path */
+    background-image: url('images/women6.webp');
+}
+.product-card:hover .card-img-container.card-6 {
+    /* 🟢 HOVER IMAGE 5: Replace with your NEW hover image path */
+    background-image: url('images/women6hover.webp'); 
+}
+
+/* -------------------------------------- */
+/* 🛑 CARD 6: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-7 {
+    /* 🔴 ORIGINAL IMAGE 6: Replace with your NEW default image path */
+    background-image: url('images/women7.webp');
+}
+.product-card:hover .card-img-container.card-7 {
+    /* 🟢 HOVER IMAGE 6: Replace with your NEW hover image path */
+    background-image: url('images/women7hover.webp'); 
+}
+
+/* -------------------------------------- */
+/* 🛑 CARD 7: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-8 {
+    /* 🔴 ORIGINAL IMAGE 7: Replace with your NEW default image path */
+    background-image: url('images/women8.webp');
+}
+.product-card:hover .card-img-container.card-8 {
+    /* 🟢 HOVER IMAGE 7: Replace with your NEW hover image path */
+    background-image: url('images/women8hover.webp'); 
+}
+
+/* -------------------------------------- */
+/* 🛑 CARD 8: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-9 {
+    /* 🔴 ORIGINAL IMAGE 8: Replace with your NEW default image path */
+    background-image: url('images/picture\ 11.jpg');
+}
+.product-card:hover .card-img-container.card-9 {
+    /* 🟢 HOVER IMAGE 8: Replace with your NEW hover image path */
+    background-image: url('images/picture\ 11\ hover.jpg'); 
+}
+
+/* ... existing CSS code for card-title and card-text-price ... */
+
+
+
+
+
+
+ .card-img-container.card-10 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/picture\ 1.jpg');
+        }
+        /* Hover image for Card 1 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-10 {
+            background-image: url('images/picture\ 1\ Hover.jpg'); 
+        }
+
+        .card-img-container.card-11 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/picture\ 2.jpg');
+        }
+        /* Hover image for Card 2 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-11 {
+            background-image: url('images/picture\ 2\ hover.jpg');
+        }
+        
+        .card-img-container.card-12 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/picture\ 3.jpg');
+        }
+        /* Hover image for Card 3 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-12 {
+            background-image: url('images/picture\ 3\ Hover.jpg'); 
+        }
+        
+        .card-img-container.card-13 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/picture\ 4\ .jpg');
+        }
+        /* Hover image for Card 4 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-13 {
+            background-image: url('images/picture\ 4\ Hover.jpg'); 
+        }
+        
+        .card-img-container.card-14 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/Picture\ 5.jpg');
+        }
+        /* Hover image for Card 4 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-14 {
+            background-image: url('images/picture\ 5\ Hover.jpg'); 
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+        
+        .card-text-price {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #333; /* Darker price color */
+        }
+    
+
+
+
+        /* ... existing CSS code for card-1 through card-4 ... */
+
+/* -------------------------------------- */
+/* 🛑 CARD 5: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-15 {
+    /* 🔴 ORIGINAL IMAGE 5: Replace with your NEW default image path */
+    background-image: url('images/picture\ 6.jpg');
+}
+.product-card:hover .card-img-container.card-15 {
+    /* 🟢 HOVER IMAGE 5: Replace with your NEW hover image path */
+    background-image: url('images/picture\ 6\ Hover.jpg'); 
+}
+
+/* -------------------------------------- */
+/* 🛑 CARD 6: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-16 {
+    /* 🔴 ORIGINAL IMAGE 6: Replace with your NEW default image path */
+    background-image: url('images/picture\ 10.jpg');
+}
+.product-card:hover .card-img-container.card-16 {
+    /* 🟢 HOVER IMAGE 6: Replace with your NEW hover image path */
+    background-image: url('images/picture\ 10\ Hover.jpg'); 
+}
+
+/* -------------------------------------- */
+/* 🛑 CARD 7: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-17 {
+    /* 🔴 ORIGINAL IMAGE 7: Replace with your NEW default image path */
+    background-image: url('images/men12.webp');
+}
+.product-card:hover .card-img-container.card-17 {
+    /* 🟢 HOVER IMAGE 7: Replace with your NEW hover image path */
+    background-image: url('images/men12hover.webp'); 
+}
+
+/* -------------------------------------- */
+/* 🛑 CARD 8: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-18 {
+    /* 🔴 ORIGINAL IMAGE 8: Replace with your NEW default image path */
+    background-image: url('images/men11.webp');
+}
+.product-card:hover .card-img-container.card-18 {
+    /* 🟢 HOVER IMAGE 8: Replace with your NEW hover image path */
+    background-image: url('images/men11hover.webp'); 
+}
+
+/* ... existing CSS code for card-title and card-text-price ... */
+
+
+
+
+
+
+
+
+.card-img-container.card-19 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/men1.webp');
+        }
+        /* Hover image for Card 1 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-19 {
+            background-image: url('images/men1hover.webp'); 
+        }
+
+        .card-img-container.card-20 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/men2.webp');
+        }
+        /* Hover image for Card 2 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-20 {
+            background-image: url('images/men2hover.webp');
+        }
+        
+        .card-img-container.card-21 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/men3.webp');
+        }
+        /* Hover image for Card 3 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-21 {
+            background-image: url('images/men3hover.webp'); 
+        }
+        
+        .card-img-container.card-22 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/men4.webp');
+        }
+        /* Hover image for Card 4 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-22 {
+            background-image: url('images/men4hover.webp'); 
+        }
+        
+        .card-img-container.card-23 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/men5.webp');
+        }
+        /* Hover image for Card 4 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-23 {
+            background-image: url('images/men5hover.webp'); 
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+        
+        .card-text-price {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #333; /* Darker price color */
+        }
+    
+
+
+
+        /* ... existing CSS code for card-1 through card-4 ... */
+
+/* -------------------------------------- */
+/* 🛑 CARD 5: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-24 {
+    /* 🔴 ORIGINAL IMAGE 5: Replace with your NEW default image path */
+    background-image: url('images/men6.webp');
+}
+.product-card:hover .card-img-container.card-24 {
+    /* 🟢 HOVER IMAGE 5: Replace with your NEW hover image path */
+    background-image: url('images/men6hover.webp'); 
+}
+
+/* -------------------------------------- */
+/* 🛑 CARD 6: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-25 {
+    /* 🔴 ORIGINAL IMAGE 6: Replace with your NEW default image path */
+    background-image: url('images/chlid1.webp');
+}
+.product-card:hover .card-img-container.card-25 {
+    /* 🟢 HOVER IMAGE 6: Replace with your NEW hover image path */
+    background-image: url('images/child1\ hover.webp'); 
+}
+
+/* -------------------------------------- */
+/* 🛑 CARD 7: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-26 {
+    /* 🔴 ORIGINAL IMAGE 7: Replace with your NEW default image path */
+    background-image: url('images/chlid2.webp');
+}
+.product-card:hover .card-img-container.card-26 {
+    /* 🟢 HOVER IMAGE 7: Replace with your NEW hover image path */
+    background-image: url('images/child2hover.webp'); 
+}
+
+/* -------------------------------------- */
+/* 🛑 CARD 8: DEFAULT AND HOVER IMAGES */
+/* -------------------------------------- */
+.card-img-container.card-27 {
+    /* 🔴 ORIGINAL IMAGE 8: Replace with your NEW default image path */
+    background-image: url('images/child\ 3.webp');
+}
+.product-card:hover .card-img-container.card-27 {
+    /* 🟢 HOVER IMAGE 8: Replace with your NEW hover image path */
+    background-image: url('images/child3\ hover.webp'); 
+}
+
+/* ... existing CSS code for card-title and card-text-price ... */
+
+
+
+
+
+
+ .card-img-container {
+            position: relative;
+            padding-top: 100%; /* Creates a square container */
+            background-size: cover;
+            background-position: center;
+            /* Placeholder for the default image (Image 1) - REPLACE THESE URLs */
+            background-image: url('https://via.placeholder.com/300x300/4e443f/FFFFFF?text=Default+Image');
+            transition: background-image 0.3s ease-in-out;
+            height: 450px;
+        }
+
+        .card-img-container.card-28 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/child4.webp');
+        }
+        /* Hover image for Card 1 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-28 {
+            background-image: url('images/child4\ hover.webp'); 
+        }
+
+        .card-img-container.card-29 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/child\ 5.webp');
+        }
+        /* Hover image for Card 2 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-29 {
+            background-image: url('images/child5\ hover.webp');
+        }
+        
+        .card-img-container.card-30 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/child\ 6.webp');
+        }
+        /* Hover image for Card 3 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-30 {
+            background-image: url('images/child\ 6\ hover.webp'); 
+        }
+        
+        .card-img-container.card-31 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/child7.webp');
+        }
+        /* Hover image for Card 4 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-31 {
+            background-image: url('images/child\ 7hover.webp'); 
+        }
+        
+        .card-img-container.card-32 {
+            /* Replace with your actual default image URL */
+            background-image: url('images/child\ 8hover.webp');
+        }
+        /* Hover image for Card 4 - REPLACE THIS URL */
+        .product-card:hover .card-img-container.card-32 {
+            background-image: url('images/child8\ hover.webp'); 
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+        
+        .card-text-price {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #333; /* Darker price color */
+        }
+    
+
+
+
+        /* ... existing CSS code for card-1 through card-4 ... */
